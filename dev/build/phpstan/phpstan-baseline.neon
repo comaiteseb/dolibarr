@@ -3169,12 +3169,6 @@ parameters:
 			path: ../../../htdocs/comm/action/pertype.php
 
 		-
-			message: '#^Parameter \#1 \$string of function urlencode expects string, int\<0, 23\> given\.$#'
-			identifier: argument.type
-			count: 1
-			path: ../../../htdocs/comm/action/pertype.php
-
-		-
 			message: '#^Result of && is always false\.$#'
 			identifier: booleanAnd.alwaysFalse
 			count: 1
@@ -3250,12 +3244,6 @@ parameters:
 			message: '#^Result of && is always false\.$#'
 			identifier: booleanAnd.alwaysFalse
 			count: 2
-			path: ../../../htdocs/comm/action/peruser.php
-
-		-
-			message: '#^Ternary operator condition is always true\.$#'
-			identifier: ternary.alwaysTrue
-			count: 4
 			path: ../../../htdocs/comm/action/peruser.php
 
 		-
@@ -12097,28 +12085,10 @@ parameters:
 			path: ../../../htdocs/cron/list.php
 
 		-
-			message: '#^Offset ''css'' on array\{css\: ''minwidth200'', picto\: mixed\} in empty\(\) always exists and is not falsy\.$#'
-			identifier: empty.offset
-			count: 1
-			path: ../../../htdocs/datapolicy/admin/setup.php
-
-		-
 			message: '#^If condition is always false\.$#'
 			identifier: if.alwaysFalse
 			count: 3
 			path: ../../../htdocs/datapolicy/class/datapolicy.class.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''anonymize'' and ''anonymize'' will always evaluate to true\.$#'
-			identifier: equal.alwaysTrue
-			count: 1
-			path: ../../../htdocs/datapolicy/class/datapolicycron.class.php
-
-		-
-			message: '#^Loose comparison using \=\= between ''anonymize'' and ''delete'' will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/datapolicy/class/datapolicycron.class.php
 
 		-
 			message: '#^Method CdavLib\:\:getFullCalendarObjects\(\) should return array\<array\<string\>\> but returns list\<array\<string, int\|string\|false\>\>\.$#'
@@ -13288,18 +13258,6 @@ parameters:
 			message: '#^If condition is always false\.$#'
 			identifier: if.alwaysFalse
 			count: 1
-			path: ../../../htdocs/expensereport/card.php
-
-		-
-			message: '#^Loose comparison using \=\= between 1 and 0 will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/expensereport/card.php
-
-		-
-			message: '#^Result of && is always false\.$#'
-			identifier: booleanAnd.alwaysFalse
-			count: 2
 			path: ../../../htdocs/expensereport/card.php
 
 		-
